@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgbg"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity6">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="13dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/headline"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/headline"
+                android:text=""
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/mujtaba"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="16dp"
+                android:backgroundTint="#774848"
+                android:text="Dyning"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_marginTop="40dp"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:baselineAligned="false"
+                android:layout_height="95dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="8dp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/roundedbdpnk"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/breakfast"
+                        android:layout_width="127dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:backgroundTint="#CFB1E3"
+                        android:backgroundTintMode="screen"
+                        android:text="Breakfast :     8:00 am"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/roundedbdpnk"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dyni"
+                        android:layout_width="117dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:text="Khichuri - Egg - Dal "
+                        android:textAlignment="center"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_marginTop="30dp"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="8dp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/roundedbdpnk"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/cantenmen"
+                        android:layout_width="127dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:text="Lunch :   12:30 pm"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/roundedbdpnk"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nfood"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:text="Chicken , Fish , Egg , Vagitable , Murighanto , Dal "
+                        android:textAlignment="center"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_marginTop="30dp"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="8dp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/roundedbdpnk"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dinner"
+                        android:layout_width="127dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:text="Dinner :      8:00 pm"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/roundedbdpnk"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dfood"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:text="Chicken , Fish , Egg , Vagitable , Murighanto , Dal "
+                        android:textAlignment="center"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/special"
+            android:layout_width="310dp"
+            android:layout_height="121dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:text="##  Every Friday  special biryani are available ##"
+            android:textAlignment="center"
+            android:textColor="#F4F3F3"
+            android:textSize="34sp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
